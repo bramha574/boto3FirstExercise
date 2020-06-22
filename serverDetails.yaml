@@ -1,0 +1,19 @@
+server:
+
+  instanceType: t2.micro
+  securityGroupId: sg-0bc68da79b3e73a68
+  keyName: newkey-exercise
+
+  volumes:
+
+    - device: /dev/xvdp
+
+      size_gb: 10
+
+      type: xfs
+
+      mount: /data2
+
+  users:
+
+    - login: user1
