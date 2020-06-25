@@ -10,4 +10,4 @@ createEnvironment.py - This script will read values from yaml and create an ec2 
 
 ### How to Run? ( Only runs from Linux machine. There are a couple of OS based commands in the script): 
 
-<pre><code>python3 FetchRewardsExercise.py</code></pre>
+<pre><code>python3 createEnvironment.py</code></pre>
